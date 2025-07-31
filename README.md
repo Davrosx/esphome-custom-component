@@ -1,5 +1,3 @@
-# ESPHome Custom Component <a href="https://www.paypal.com/donate?hosted_button_id=6K9UYUZ4SZMVC"><img style="vertical-align:middle" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif"></a>
-
 With the release of ESPHome 2025.2.0, custom components were removed from the ESPHome core.
 
 This component brings back support for such components.
@@ -15,7 +13,7 @@ Add the following to your project's YAML:
 external_components:
   - source:
       type: git
-      url: https://github.com/robertklep/esphome-custom-component
+      url: https://github.com/Davrosx/esphome-custom-component
     components: [ custom, custom_component ]
 ```
 
